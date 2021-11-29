@@ -2,7 +2,7 @@ var readinput=require("readline-sync");
 const chalk = require("chalk");
 
 var score=0;
-var userName=readinput.question("enter you name: ")
+var userName=readinput.question(chalk.yellow("enter you name: "))
 console.log("Welcome",userName, "to Himani's Quiz !!!!! Test your knowledge about Himani")
 console.log("-----------------------------------------------------")
 questions=["Which state she is belong?", " What she want to become?" ,"What is current city of Himani?" ,"How many Language she know?"]
@@ -19,7 +19,7 @@ var quiz_Text=function(questions,Answers,Options){
             var j=0;
             var c=1
             while(j<Options.length){
-                console.log(chalk.white(c, Options[i][j]))
+                console.log(chalk.blue(c, Options[i][j]))
                 j++
                 c++
             }var userAns=readinput.questionInt("enter your Answer:- ");
