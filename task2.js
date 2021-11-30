@@ -16,6 +16,7 @@ var quiz_Text=function(questions,Answers,Options){
         var count=1
         while(i<questions.length){
             console.log(count, questions[i])
+            console.log("Himani")
             var j=0;
             var c=1
             while(j<Options.length){
