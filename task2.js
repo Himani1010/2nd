@@ -9,7 +9,7 @@ questions=["Which state she is belong?", " What she want to become?" ,"What is c
 
 Answers=[3,3,2,4]
 
-Options=[['Goa', 'Delhi', 'Uttarakhanda', 'Panjab'],['CM','Singer','Good programer','PM'] , ['Pune','Bangalore','Odisha','U.P.'],['4','3','1','2']]
+Options=[['Goa', 'Delhi', 'Uttarakhand', 'Panjab'],['CM','Singer','Good programer','PM'] , ['Pune','Bangalore','Odisha','U.P.'],['4','3','1','2']]
 
 var quiz_Text=function(questions,Answers,Options){
         var i=0;
